@@ -241,7 +241,6 @@ num_lambda_values = 10;
  
 % Allocate a vector to store the PSNR results obtained for the best lambda
 PSNR_admm_best_lambda = zeros(num_experiments,1);
- 
 % Loop over num_experiments
 for experiment = 1:num_experiments
     
