@@ -118,7 +118,7 @@ for experiment = 1:num_experiments
     A_eff = C*A;
  %%%%%%%on. may create zero columns. Make sure you are aware of this possibility and treat it %%%%%%
  %%%%%%%%   do I need it ????????A_eff( :, ~any(A_eff,1) ) = [];
- 
+    A_eff = A_eff+eps;
     % TODO: Compute the oracle estimation
     % Write your code here... x_oracle = ????;
     
