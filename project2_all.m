@@ -21,7 +21,6 @@ p = 0.4;
 % TODO: Set the noise std
 % Write your code here... sigma = ????;
 sigma = 0.05;
-sigma = 0.3;
 
 % TODO: Set the cardinality of the representation
 % Write your code here... true_k = ????;
@@ -96,6 +95,9 @@ for i=1:size(A,2)
     end
     
 end
+
+ 
+ 
  
 %% Oracle Inpainting
  
